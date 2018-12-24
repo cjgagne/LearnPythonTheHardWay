@@ -1,0 +1,5 @@
+print("How wide is your garden in feet?", end=' ')
+width_feet = int(input())
+print("How long is your garden in feet?", end=' ')
+length_feet = int(input())
+print(f"Your garden is {width_feet} ft by {length_feet} ft, so {width_feet*length_feet} sqft.")
