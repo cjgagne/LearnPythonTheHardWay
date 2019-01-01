@@ -1,6 +1,6 @@
 from sys import exit
 
-class EudaimoniaMachine:
+class EudaimoniaMachine(object):
 
     def __init__(self):
         print("""Welcome to the Eudaimonia Machine!
